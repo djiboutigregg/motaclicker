@@ -1,0 +1,2 @@
+# motaclicker
+incremental clicking game
