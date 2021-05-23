@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mota Sleeper</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <p id="goldMined">1 Motas went to sleep</p>
+
+      <button class="GoodNight" onclick="mineGold()">
+        Good Night
+      </button>
+
+      <br /><br />
+
+      <button class="Blanket" onclick="buyGoldPerClick()" id="perClickUpgrade">
+        Blanket (Currently Level 1) Cost: 10 Mota
+      </button>
+      <button class="Blanket" onclick="upgradeBlanket()" id="upgradeBlanket">
+        Blanket Upgrade (Currently Level 1) Cost: 100 Mota
+      </button>
+
+      <br /><br />
+
+      <button class="Shoko" onclick="buyShoko()" id="shokoUpgrade">
+        Shoko (Currently Level 0) Cost: 100 Mota
+      </button>
+      <button class="Shoko" onclick="upgradeShoko()" id="upgradeShoko">
+        Shoko Upgrade (Currently Level 1) Cost: 500 Mota
+      </button>
+
+      <br /><br />
+
+      <button class="Story" onclick="buyStory()" id="storyUpgrade">
+        Bedtime Story (Currently Level 0) Cost: 500 Mota
+      </button>
+      <button class="Story" onclick="upgradeStory()" id="upgradeStory">
+        Story Upgrade (Currently Level 1) Cost: 1000 Mota
+      </button>
+
+    </div>
+
+    <script src="js/main.js" charset="utf-8" type="text/javascript"></script>
+  </body>
+</html>
